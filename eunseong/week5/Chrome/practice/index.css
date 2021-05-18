@@ -1,0 +1,16 @@
+body{
+    background-color: paleturquoise;
+}
+
+h1 {
+    color: white;
+    transition: color 0.5s ease-in-out;
+}
+
+.color {
+    color: wheat;
+}
+
+.btn{
+    
+}

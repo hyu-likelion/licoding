@@ -1,0 +1,28 @@
+npm install npx -g -> npx create-react-app 앱이름: react app 생성
+npm start: 서버 실행
+npm i prop-types: PropTypes 설치 -> 부모 component에서 전달 받은 props가 원하는 props인지 확인
+
+## jsx
+
+```
+function Food({fav}){
+	return <h1>I like {fav}</h1>
+}
+
+function App(){
+	return(
+	<div>
+	<Food fav="kimchi" />
+	</div>
+	)
+}
+```
+- Food: component(>function component), <Food />와 같은 형식으로 쓰임
+- fav: prop name, {fav} = props.fav 형태로 쓰임
+
+## map
+: array의 각 item에 대해 함수를 실행한 후 결과값 array를 return
+
+## state
+: dynamic data를 다루는 객체, class component에 있음
+-setState: 새 state와 render function 호출 / state에 바로 접근할 수 없음(setState 써야 함)
